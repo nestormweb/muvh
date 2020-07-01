@@ -1,0 +1,79 @@
+body{
+    padding-top: 30px;
+}
+#aviso-navegador  {
+        background-color:#FFFFCC;
+        border:1px solid #EE5113;
+        color:#333333;
+        font-size:9pt;
+        height:auto;
+        line-height:12pt;
+        padding:10px;
+        right:7px;
+        top:7px;
+        width:98%;
+        z-index:2;
+        visibility:visible !important;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        top:0;
+    }
+
+.container{
+    width:1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {margin:0;margin-left:-20px}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12  {
+	float:left;display:block; padding-left: 0; padding-right: 0px;
+}
+
+/* Navbar */
+.nav-collapse {width:auto}
+.nav li a {display: block}
+.navbar .nav .active  a, .navbar .nav .active  a:hover {background-color:#000;color: #FFFFFF;text-decoration: none}
+    .navbar .nav li {display:block;float:left}
+        .navbar .nav li a {float:none;line-height:19px;padding:10px 10px 11px}
+        .navbar .nav li a:hover {background-color:transparent;color:#ffffff;text-decoration:none}
+
+        .navbar .nav .active a, 
+            .navbar .nav .active a:hover {color:#ffffff;text-decoration:none;background-color:#222222;background-color:#000}
+        .navbar .nav .open .dropdown-toggle, 
+            .navbar .nav .active .dropdown-toggle,
+            .navbar .nav .open.active .dropdown-toggle{background-color:transparent}
+        .navbar .nav .active .dropdown-toggle:hover {color:#ffffff}
+
+    .dropdown .dropdown-toggle {margin-bottom:1px;position:relative;top:2px;left:0px}
+    
+    .dropdown-menu li {width:100%}
+        .dropdown-menu li a {width:100%;padding:3px 0px 3px 5px}
+        .dropdown-menu li a:hover, 
+        .dropdown-menu .active a, 
+        .dropdown-menu .active a:hover {background-color:#0088CC;color:#FFFFFF;text-decoration:none}
+
+
+
+/***********Logo Cabecera Responsive BY Nestor Morel   **********/
+@media screen and (max-width:640px) {
+	.logoder {
+		max-width: 300px;
+		top: 10px;
+		padding-left: 85px;
+		
+	}
+}
+
+@media screen and  (max-width:640px) { 
+.logoiz {
+		max-width: 300px;
+		top: 10px;
+		padding-left: 85px;
+		
+	}
+}

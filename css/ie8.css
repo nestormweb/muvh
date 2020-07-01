@@ -1,0 +1,59 @@
+#aviso-navegador2 {
+		background-color:#FFFFCC;
+		border:1px solid #EE5113;
+		color:#333333;
+		font-size:9pt;
+		height:auto;
+		line-height:12pt;
+		padding:10px;
+		right:7px;
+		top:7px;
+		width:100%;
+		z-index:2;
+		visibility:visible !important;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sidebar h3, .widget .widgettitle, .tituloseccion{
+   background: url(../images/bggradient.jpg) repeat-x !important;
+}
+
+.container{
+    width:1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*
+/* Container when content is shown in slider */
+/*
+.showcase
+{
+	position: relative;
+	padding: 0;
+		margin: 0;
+        background:#874343;
+        overflow:hidden;
+        height:340px;
+        width: 1170px;
+      
+}
+
+	.showcase-content-container
+	{
+		padding: 0;
+		margin: 0;
+		width: 1170px;
+	}
+
+.showcase-content
+	{
+		display: block;
+		padding: 0;
+		margin: 0;
+		width: 1170px;
+	}*/
